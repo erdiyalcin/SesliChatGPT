@@ -53,7 +53,6 @@ if __name__ == "__main__":
         if mesaj == "Hata" or mesaj == "Anlaşılamadı": # Alınan ses yazıya dönüştürülürken hata alındıysa aşağıdaki kodları atla ve tekrar dinle
             continue
         else:
-            sayac = 0
             yanit = ChatGPTyeGonder(mesaj)
             YaziyiSesOlarakKaydet("ses.mp3",yanit)
             SesiOku("ses.mp3")
