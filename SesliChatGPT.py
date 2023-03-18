@@ -8,7 +8,7 @@ import eyed3 #pip install eyed3
 
 #İlk ayarlar
 messages = [{"role" : "system", "content":"Sen nazik bir asistanımsın."}]
-openai.api_key = "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" # https://platform.openai.com/ Adresinden alabilirsiniz.
+openai.api_key = "" # https://platform.openai.com/ Adresinden alabilirsiniz.
 r = sr.Recognizer()
 
 #Fonksiyonlar
