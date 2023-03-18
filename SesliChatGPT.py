@@ -1,5 +1,5 @@
 import speech_recognition as sr #pip install SpeechRecognition
-import openai
+import openai #pip install openai
 from gtts import gTTS #pip install gTTS
 import vlc #pip install python-vlc
 import time
